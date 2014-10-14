@@ -1,0 +1,63 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+.custom-ion-ios7-close-outline{
+	position: absolute;
+	z-index: 4;
+	font-size: 28px;
+	color: red;
+	right: 10px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.selected{
+	text-decoration: line-through;
+}
+
+
+.item-title{
+	position: relative;
+	z-index: 3;
+	display: block;
+	margin: -16px 50px -16px 0;
+	padding: 16px 0 16px 0;
+	cursor: pointer;
+ }
+
+ .item-checkbox.center{
+ 	text-align: center;
+	padding: 0;
+ 	 .checkbox{
+ 	 	position: relative;
+ 	 	top: 0;
+ 	 	left: 0;
+ 	 	bottom: 0;
+ 	 	right: 0;
+ 	 	margin: 0;
+ 	 	display: inline-block;
+ 	 }
+ }
+
+ 
